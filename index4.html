@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/style4.css">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <title>Stories</title>
+</head>
+
+<body>
+
+    <div class="contentStories">
+
+        <button class="arrow left-arrow" onclick="scrollStories(-1)">
+            <i class="ph-duotone ph-arrow-circle-left"></i>
+        </button>
+
+        <div class="stories-container">
+            <div class="content-stories" id="newStory">
+                <div class="content-img overlay">
+                    <img src="img/profile-2.jpeg" alt="">
+                    <div class="add">+</div>
+                </div>
+
+                <div class="text-container">
+                    <p>Nuevo</p>
+                </div>
+            </div>
+
+            <div class="content-stories" onclick="handleImageClick(this)">
+                <div class="content-img">
+                    <img src="./img/1.jpeg" alt="">
+                </div>
+                <div class="text-container">
+                    Dennis29
+                </div>
+            </div>
+
+            <div class="content-stories">
+                <div class="content-img">
+                    <img src="./img/2.jpeg" alt="">
+                </div>
+                <div class="text-container">
+                    Dennis29
+                </div>
+            </div>
+
+            <div class="content-stories">
+                <div class="content-img">
+                    <img src="./img/3.jpeg" alt="">
+                </div>
+                <div class="text-container">
+                    Dennis29
+                </div>
+            </div>
+
+            <div class="content-stories">
+                <div class="content-img">
+                    <img src="./img/4.jpeg" alt="">
+                </div>
+                <div class="text-container">
+                    Dennis29
+                </div>
+            </div>
+
+            <div class="content-stories">
+                <div class="content-img">
+                    <img src="./img/1.jpeg" alt="">
+                </div>
+                <div class="text-container">
+                    Dennis29
+                </div>
+            </div>
+
+            <div class="content-stories">
+                <div class="content-img">
+                    <img src="./img/2.jpeg" alt="">
+                </div>
+                <div class="text-container">
+                    Dennis29
+                </div>
+            </div>
+
+            <div class="content-stories">
+                <div class="content-img">
+                    <img src="./img/2.jpeg" alt="">
+                </div>
+                <div class="text-container">
+                    Dennis29
+                </div>
+            </div>
+
+            <div class="content-stories">
+                <div class="content-img">
+                    <img src="./img/2.jpeg" alt="">
+                </div>
+                <div class="text-container">
+                    Dennis29
+                </div>
+            </div>
+
+            <div class="content-stories">
+                <div class="content-img">
+                    <img src="./img/2.jpeg" alt="">
+                </div>
+                <div class="text-container">
+                    Dennis29
+                </div>
+            </div>
+
+            <div class="content-stories">
+                <div class="content-img">
+                    <img src="./img/2.jpeg" alt="">
+                </div>
+                <div class="text-container">
+                    Dennis29
+                </div>
+            </div>
+
+            <div class="content-stories">
+                <div class="content-img">
+                    <img src="./img/2.jpeg" alt="">
+                </div>
+                <div class="text-container">
+                    Dennis29
+                </div>
+            </div>
+        </div>
+
+        <button class="arrow right-arrow" onclick="scrollStories(1)">
+            <i class="ph-duotone ph-arrow-circle-right"></i>
+        </button>
+    </div>
+
+    <!-- Modal para mostrar imágenes -->
+    <div id="myModalStory" class="modalStorie">
+        <span class="closeModalStorie" onclick="closeModal()">&times;</span>
+        <div class="modal-content-Storie" id="modalStorie" draggable="false"></div>
+    </div>
+
+    <script src="./js/script4.js"></script>
+</body>
+
+</html>
